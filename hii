@@ -1,0 +1,28 @@
+<div class="w-container">
+      <div class="w-row">
+          <div>
+            <div class="w-form">      
+    <br>            
+         <h3 class="no-margin white">Register</h3><br>
+              <form name="enq" method="post" action="email-contact/" onsubmit="return validation();">
+                <div class="w-col w-col-3">
+                <input class="w-input text-field" name="name" placeholder="Name" type="text" required="required">
+                <input class="w-input text-field" name="phone" placeholder="Phone No." type="tel" required="required">                
+                <input class="w-input text-field" name="college" placeholder="College/Institute" required="required" type="text">
+                <input class="w-input text-field" name="course" placeholder="Course" type="text">
+                </div>
+
+        <div class="w-col w-col-4">
+                <input class="w-input text-field" name="email" placeholder="Email" required="required" type="email">         
+                <textarea class="w-input text-field text-area" name="skills" placeholder="What makes you unique to Thrust?" type="text"></textarea>
+                <input class="w-button submit-button" type="submit" name="submit" value="Submit">                   
+                </div>                
+        <div class="w-col w-col-5">                                
+                <textarea class="w-input text-field text-area" name="workex" placeholder="Any Previous Work/Entrepreneurial Experience? Be it selling dimsums, comics or the world. We want to know it all!" required="required"></textarea>
+                <textarea class="w-input text-field text-area" name="bm" placeholder="The best business model according to you and why" required="required"></textarea>
+              </form>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div><script src="ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script> <script src="js/dvs.js" type="text/javascript"></script> 
